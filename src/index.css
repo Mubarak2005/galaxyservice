@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-brand-blue: #4f46e5;
+  --color-brand-purple: #7c3aed;
+  --color-brand-cyan: #06b6d4;
+  --color-brand-green: #10b981;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1e1b3a;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: #ddd6fe;
+  color: #1e1b3a;
+}
+
+/* Reusable utility classes */
+.gradient-text {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-btn {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(90deg, #4338ca, #6d28d9);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #6d28d9;
+}
+
+.section-eyebrow::before {
+  content: "";
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  display: inline-block;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4f46e5, #7c3aed);
+  border-radius: 10px;
+}
+
+/* Swiper pagination override */
+.hero-swiper .swiper-pagination {
+  position: static;
+  margin-top: 1.5rem;
+}
+.hero-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #c7d2fe;
+  opacity: 1;
+}
+.hero-swiper .swiper-pagination-bullet-active {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  width: 22px;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
