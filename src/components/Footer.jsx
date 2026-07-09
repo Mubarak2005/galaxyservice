@@ -79,7 +79,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin size={15} className="text-indigo-400 shrink-0 mt-0.5" />
-                <span>Serving all areas of Vadodara, Gujarat</span>
+                <span>Serving all areas of Vadodara, Gujarat.</span>
               </li>
             </ul>
 
