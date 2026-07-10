@@ -75,7 +75,7 @@ export default function HeroCarousel() {
                   >
                     <img
                       src={slide.image}
-                      alt={slide.heading}
+                      alt={slide.alt}
                       className="w-full max-w-2xl mx-auto rounded-3xl object-contain overflow-visible aspect-[4/3]"
                     />
                   </motion.div>

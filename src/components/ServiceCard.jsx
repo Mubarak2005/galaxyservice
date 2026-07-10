@@ -32,8 +32,7 @@ export default function ServiceCard({ service, index = 0 }) {
       >
         <img
           src={service.image}
-          alt={service.title}
-          alt="AC Repair in Vadodara"
+          alt={service.alt}
           loading="lazy"
           decoding="async"
           className={`w-full h-full ${service.id == "fridge" || service.id == "geyser" ? "object-contain" : "object-cover"} transition-transform duration-500 group-hover:scale-105`}

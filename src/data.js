@@ -10,7 +10,8 @@ export const services = [
     description:
       "AC repair, installation & gas refilling for split and window units.",
     price: 299,
-    image: "/images/ac.png",
+    image: "/images/ac-service-vadodara.png",
+    alt: "AC Service and Repair Service in Vadodara",
     badgeGradient: "from-blue-500 to-cyan-400",
     cardTint: "bg-blue-50",
     ring: "hover:ring-blue-200",
@@ -21,7 +22,8 @@ export const services = [
     description:
       "Expert repair for single door, double door & side-by-side refrigerators.",
     price: 299,
-    image: "/images/fridge.png",
+    image: "/images/fridge-repair-vadodara.png",
+    alt: "Fridge Repair Service in Vadodara",
     badgeGradient: "from-emerald-500 to-teal-400",
     cardTint: "bg-emerald-50",
     ring: "hover:ring-emerald-200",
@@ -32,7 +34,8 @@ export const services = [
     description:
       "Quick & reliable repair for front, top load & semi-automatic machines.",
     price: 299,
-    image: "/images/wm.png",
+    image: "/images/washing-machine-repair-vadodara.png",
+    alt: "Washing Machine Repair Service in Vadodara",
     badgeGradient: "from-purple-500 to-fuchsia-400",
     cardTint: "bg-purple-50",
     ring: "hover:ring-purple-200",
@@ -43,7 +46,8 @@ export const services = [
     description:
       "Same-day repair for microwaves, OTGs and built-in ovens, any brand.",
     price: 299,
-    image: "/images/mw.png",
+    image: "/images/microwave-repair-vadodara.png",
+    alt: "Microwave and Oven Repair Service in Vadodara",
     badgeGradient: "from-orange-500 to-amber-400",
     cardTint: "bg-orange-50",
     ring: "hover:ring-orange-200",
@@ -54,7 +58,8 @@ export const services = [
     description:
       "Fast and reliable repair, installation, and maintenance services for electric and gas geysers of all major brands.",
     price: 299,
-    image: "/images/geyser.png",
+    image: "/images/geyser-repair-vadodara.png",
+    alt: "Geyser Repair and Installation Service in Vadodara",
     badgeGradient: "from-sky-500 to-cyan-400",
     cardTint: "bg-sky-50",
     ring: "hover:ring-sky-200",
@@ -69,7 +74,8 @@ export const heroSlides = [
     highlight: "Vadodara",
     description:
       "Professional AC repair, installation, gas refilling, and maintenance services in Vadodara. Expert technicians, doorstep service, genuine spare parts, and affordable pricing.",
-    image: "/images/ac.png",
+    image: "/images/ac-service-vadodara.png",
+    alt: "AC Service and Repair Service in Vadodara",
     bg: "from-blue-50 via-indigo-50 to-violet-100",
   },
   {
@@ -79,7 +85,8 @@ export const heroSlides = [
     highlight: "Repair & Service",
     description:
       "Reliable refrigerator repair services in Vadodara for cooling issues, compressor faults, gas leakage, and all major brands. Fast doorstep support with genuine spare parts.",
-    image: "/images/fridge.png",
+    image: "/images/fridge-repair-vadodara.png",
+    alt: "Fridge Repair Service in Vadodara",
     bg: "from-emerald-50 via-teal-50 to-cyan-100",
   },
   {
@@ -89,7 +96,8 @@ export const heroSlides = [
     highlight: "Repair Specialists",
     description:
       "Expert washing machine repair in Vadodara for fully automatic, semi-automatic, and front-load machines. We fix drainage, spinning, motor, and PCB issues.",
-    image: "/images/wm.png",
+    image: "/images/washing-machine-repair-vadodara.png",
+    alt: "Washing Machine Repair Service in Vadodara",
     bg: "from-purple-50 via-violet-50 to-fuchsia-100",
   },
   {
@@ -99,7 +107,8 @@ export const heroSlides = [
     highlight: "Repair in Vadodara",
     description:
       "Professional microwave, OTG, and oven repair services in Vadodara. We fix heating issues, sparking, turntable problems, PCB faults, and all major brands with same-day doorstep service.",
-    image: "/images/mw.png",
+    image: "/images/microwave-repair-vadodara.png",
+    alt: "Microwave and Oven Repair Service in Vadodara",
     bg: "from-amber-50 via-orange-50 to-rose-100",
   },
 ];
